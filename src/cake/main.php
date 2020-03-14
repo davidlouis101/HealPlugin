@@ -8,7 +8,7 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
-class cake extends PluginBase
+class tg extends PluginBase
 {
 	public function onEnable()
 	{		
