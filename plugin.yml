@@ -1,0 +1,9 @@
+name: HealPlugin
+main: cake\main
+author: TheCakeIsALie
+api: 3.0.0
+version: 0.0.1
+commands:
+    heal:
+        description: Setzt deine Leben auf 10 Herzen
+        usage: /heal
