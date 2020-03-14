@@ -17,7 +17,7 @@ class Main extends PluginBase
 	
 	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args)
 	{
-		switch ($cmd->getName() {
+		switch ($cmd->getName()) {
 			case "heal":
 				if($sender instanceof Player) {
 					$sender->sendMessage(TextFormat::GREEN . "Deine Leben sind wieder aufgefüllt!");
