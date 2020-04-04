@@ -8,11 +8,16 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
-class Main extends PluginBase{
+class Healing extends PluginBase{
 
 	public function onEnable()
 	{		
-		$this->getLogger()->info("HealPlugin aktiviert!");
+		$this->getLogger()->info("HealPlugin aktiviert");
+	}
+
+        public function onDisable()
+	{		
+		$this->getLogger()->info("HealPlugin deaktiviert");
 	}
 	
 	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args)
@@ -27,6 +32,7 @@ class Main extends PluginBase{
 					$sender->sendMessage(TextFormat::RED . "Du brauchst denn rang, Supreme oder Premium Um dich zu heilen");
 					return true;
 				}
+                                  break;
 		}
 	}
 }
