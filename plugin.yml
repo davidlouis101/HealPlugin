@@ -1,7 +1,7 @@
 name: HealPlugin
-main: cake\heal\healing
-author: TheCakeIsALie
-api: 3.0.0
+main: Crow\Heal\Healing
+author: Crow
+api: [3.0.0]
 version: 0.0.1
 commands:
     heal:
