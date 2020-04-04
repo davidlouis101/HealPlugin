@@ -8,8 +8,8 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
-class main extends PluginBase
-{
+class Healing extends PluginBase{
+
 	public function onEnable()
 	{		
 		$this->getLogger()->info("HealPlugin aktiviert!");
